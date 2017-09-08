@@ -1,0 +1,26 @@
+white : #EBF5FB ;
+$fontStyle1 :'Orbitron', sans-serif;
+
+/* Style section1*/
+.section1 {
+    text-align: center;
+    background-color: $white;
+    font-family: $fontStyle1;
+}
+
+/* Style section3*/
+.section3 {
+    input {
+        max-width : 15vw;
+    }
+}
+
+/* Style section5 */
+.section5 {
+    display: none;
+    height: 5vh;
+    #showRepoInfo{
+        height: 40vh;
+        overflow: scroll;
+    }
+}
