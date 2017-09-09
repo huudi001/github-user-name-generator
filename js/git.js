@@ -31,12 +31,9 @@ Repos.prototype.getRepos = function(userInfo, displayFunction){
         }
 
     }).fail(function(error){
-        // Currently producing an error on the console, to be fixed
 
-        // Debugger
-        // console.log(error.responseJSON.message);
 
-        // $('#showUserInfo').append(error.responseJSON.message);
+        $('#showUserInfo').append(error.responseJSON.message);
     });
 };
 
